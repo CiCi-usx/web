@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<title>GPA</title>
+<script>
+(async () => {
+  const r = await fetch('http://sho.usxjsj.cn:2020/webapi23/getScoreByName.php');
+  const res = await r.json();
+  console.log(res);
+})();
+</script>
